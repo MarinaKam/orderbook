@@ -1,0 +1,60 @@
+.order-row {
+    display: flex;
+    padding: 0 0.5em;
+    justify-content: space-between;
+    position: relative;
+    color: rgb(135, 145, 166);
+}
+
+.order-row.header {
+    padding: 0.5rem;
+}
+
+.order-price__label {
+    font-size: 12px;
+    background: rgb(32, 42, 63);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.order-row.bids .order-total-bg {
+    background-color: rgba(25, 191, 145, 0.3);
+}
+
+.order-row.asks .order-total-bg {
+    background-color: rgba(195, 59, 79, 0.3);
+}
+
+.order-row.bids .order-price {
+    color: rgb(25, 191, 145);
+}
+
+.order-row.asks .order-price {
+    color: rgb(195, 59, 79);
+}
+
+.order-total {
+    position: relative;
+}
+
+.order-price {
+    text-align: left;
+}
+
+.order-amount,
+.order-total {
+    text-align: right;
+}
+
+.order-price,
+.order-amount,
+.order-total {
+    width: 33%;
+}
+
+.order-total-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}

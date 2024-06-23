@@ -1,0 +1,13 @@
+.container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-container {
+    background-color: rgb(16, 22, 36);
+    width: 100%;
+    max-width: 400px;
+}
