@@ -2,6 +2,9 @@
 This document outlines the approach I've taken in implementing this solution, the challenges I encountered, and potential 
 improvements that could be made to enhance efficiency and robustness.
 
+## Live Demo
+The live version of this solution is hosted on Vercel and can be accessed at [https://orderbook-beige.vercel.app/](https://orderbook-beige.vercel.app/).
+
 ### Approach
 The solution was developed using React.js, acting as the backbone of the user interface, while Redux was chosen for state management.
 
