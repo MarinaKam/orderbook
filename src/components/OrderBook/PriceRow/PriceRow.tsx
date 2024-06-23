@@ -29,6 +29,7 @@ export const PriceRow: React.FC<PriceRowProps> = ({ bids, asks }) => {
         <span className="price-icon">{priceDifference > 0 ? '↑' : '↓'}</span>
         {formatPrice(lastBidPrice)}
       </div>
+
       <div className="price-change">
         {formatPrice(lastAskPrice)}
       </div>
